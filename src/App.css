@@ -6,6 +6,17 @@ body{
 .App{
   margin: 10px;
   background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+.vidContainer{
+  margin: 10px  ;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+.titleContainer{
+  width: 300px;
 }
 .thumnail{
   width: 350px;

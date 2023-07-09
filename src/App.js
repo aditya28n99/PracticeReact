@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       {/* <Videos {...vidData}></Videos> */}
       {vidData.map(vidData=><Videos
-      title={vidData.title} channel={vidData.channel} views={vidData.views} time={vidData.time} discription={vidData.discription}></Videos>)}
+      title={vidData.title} thumnail={vidData.thumnail} logo={vidData.logo} channel={vidData.channel} views={vidData.views} time={vidData.time} discription={vidData.discription}></Videos>)}
     </div>
   );
 }
